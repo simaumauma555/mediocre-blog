@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+header{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #3f3f3f;
+    height: 40px;
+}
+div.menu{
+    color: white;
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    border: 0.5px solid;
+    
+}
+div.menu:hover{
+   background-color: lightblue; 
+}
+hr{
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+div.title_picture{
+    display: flex;
+}
+#title_img{
+    flex:1;
+    margin: 0;
+}
+#maindiv{
+    display: flex;
+    flex: 1;
+}
+main{
+    flex: 1;
+}
+aside{
+    width: 150px;
+    background-color:linen;
+}
+h1 {
+    display:flex;
+    margin: 0;
+    background-color:white;
+    height: 70px;
+    align-items: center;
+}
+#blog-titles{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#blog-title1, #blog-title2{
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 700px;
+}
+
+.title_picture{
+    position: relative;
+}
+.blog_title{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin-left: 20px;
+}
+footer{
+    height: 50px;
+    background-color: linen;
+}
