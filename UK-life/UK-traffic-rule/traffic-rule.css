@@ -34,3 +34,15 @@ footer{
 #footer{
     text-align: right;
 }
+@media screen and (max-width:700px){
+    body{
+        width:100%;
+    }
+    aside{
+        width: 0px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
