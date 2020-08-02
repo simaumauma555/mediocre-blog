@@ -8,7 +8,7 @@ englishLearningButton.onclick=function(){
     let explanation=document.getElementById("explanation");
     blogTitle1.href="English_learning/If_hearing_English_is_effective.html";
     blogTitle1.innerText="英語の聞き流しはリスニング力向上に効果的か？"
-    blogTitle2.innerText="リスニングについて";
+    blogTitle2.innerText="英語を聞き取れるようになる方法";
     titleImage.src="pictures/uk_image2.JPG";
     explanation.innerHTML="<p>30歳手前で突然海外関連部門に配属され、そこから慌てて英語を勉強し始め、なんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。</p><p>英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。</p>";
 };

@@ -37,9 +37,10 @@ span{
 }
 footer{
     margin:0;
-    background-color: linen;
+    background-color:linen;
     height: 50px;
     text-align: right;
+}
 @media screen and (max-width:700px){
     body{
         width:100%;
