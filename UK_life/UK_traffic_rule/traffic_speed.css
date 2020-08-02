@@ -26,6 +26,12 @@ h3 {
     display:inline;
     background: linear-gradient(transparent 70%, #a7d6ff 70%);
 }
+h4{
+    font-size: 20px;
+}
+img{
+    width: 700px;
+}
 footer{
     margin:0;
     background-color: lightgray;
