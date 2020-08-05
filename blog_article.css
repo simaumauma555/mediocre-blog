@@ -30,7 +30,7 @@ h4{
     font-size: 20px;
 }
 img{
-    width: 700px;
+    max-width: 700px;
 }
 span{
     background: linear-gradient(transparent 70%,#ffff7a 60%);
