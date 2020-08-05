@@ -21,10 +21,12 @@ h2 {
     background: transparent;/*背景透明に*/
     border-left: solid 5px #191970;/*左線*/
     border-left-width: 10px;
+    font-size: 30px;
 }
 h3 {
     display:inline;
     background: linear-gradient(transparent 70%, #a7d6ff 70%);
+    font-size: 25px;
 }
 h4{
     font-size: 20px;
@@ -37,7 +39,7 @@ span{
 }
 footer{
     margin:0;
-    background-color:linen;
+    background-color: linen;
     height: 50px;
     text-align: right;
 }
