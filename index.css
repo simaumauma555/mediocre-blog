@@ -44,6 +44,7 @@ body{
     flex:1;
     margin: 0;
     width: 100%;
+    height: auto;
 }
 #maindiv{
     display: flex;
