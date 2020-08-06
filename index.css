@@ -36,12 +36,14 @@ body{
     flex-direction: column;
     width: 1000px;
 }
-div.title_picture{
+/* div.title_picture{
     display: flex;
-}
+} */
 #title_img{
+    display:flex;
     flex:1;
     margin: 0;
+    width: 100%;
 }
 #maindiv{
     display: flex;
