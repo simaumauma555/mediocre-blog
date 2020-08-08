@@ -17,7 +17,7 @@ englishLearningButton.onclick=function(){
     blogTitle3.innerText="英語のリスニング力を劇的に向上には？";
     blogTitle4.innerText="英語の書き取り（ディクテーション）が最強である理由";
     titleImage.src="pictures/uk_image2.JPG";
-    explanation.innerText="30歳手前で突然海外関連部門に配属され、そこから慌てて英語を勉強し始め、なんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。</p><p>英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。";
+    explanation.innerText="30歳手前で突然海外関連部門に配属され、そこから慌てて英語を勉強し始め、なんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。";
 };
 
 let UKLifeButton =document.getElementById("UK_life");
@@ -37,7 +37,7 @@ UKLifeButton.onclick=function(){
     blogTitle4.href="";
     blogTitle1.innerText="【完全攻略】イギリスの制限速度";
     blogTitle2.innerText="【完全攻略】初めてイギリスで運転する際に必ずしっておくべきこと";
-    blogTitle3.innerText="";
-    blogTitle4.innerText="";
+    blogTitle3.innerHTML="";
+    blogTitle4.innerHTML="";
     explanation.innerText="海外駐在の機会をいただきイギリスに生活しております（2020年時点）。今後イギリスに住まれる方や旅行でイギリスに来られる方に向けて、有用な情報を提供していきたいと考えています。" 
 };
