@@ -36,9 +36,6 @@ body{
     flex-direction: column;
     width: 1000px;
 }
-/* div.title_picture{
-    display: flex;
-} */
 #title_img{
     display:flex;
     flex:1;
@@ -71,7 +68,7 @@ h1 {
     margin-right: 50px;
     margin-top: 20px;
 }
-#blog_title1, #blog_title2, #blog_title3, #blog_title4{
+.blog_title{
     text-decoration: none;
 }
 img{

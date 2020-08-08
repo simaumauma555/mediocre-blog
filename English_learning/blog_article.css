@@ -38,7 +38,10 @@ span{
     background: linear-gradient(transparent 70%,#ffff7a 60%);
 }
 .English_word{
-    font-size: 30px;
+    font-size: 25px;
+}
+.blog_link{
+    text-decoration: none;
 }
 footer{
     margin:0;
