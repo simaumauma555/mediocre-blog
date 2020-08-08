@@ -37,6 +37,9 @@ img{
 span{
     background: linear-gradient(transparent 70%,#ffff7a 60%);
 }
+.English_word{
+    font-size: 30px;
+}
 footer{
     margin:0;
     background-color: linen;
