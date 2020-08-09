@@ -70,6 +70,7 @@ h1 {
 }
 .blog_title_all{
     text-decoration: none;
+    margin: 0;
 }
 img{
     display: block;
@@ -84,6 +85,9 @@ img{
     color: white;
     bottom: 0;
     margin-left: 20px;
+}
+p.blog_titles{
+    margin:0;
 }
 footer{
     height: 50px;
