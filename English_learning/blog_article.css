@@ -50,6 +50,14 @@ span{
 .blog_link{
     text-decoration: none;
 }
+table{
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+th,td{
+    border:1px #494949 solid;
+    width: 300px;
+}
 footer{
     margin:0;
     background-color: linen;
