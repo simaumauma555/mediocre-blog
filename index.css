@@ -86,7 +86,13 @@ img{
     margin-left: 20px;
 }
 p.blog_titles{
-    margin:0;
+    display: inline-block;
+    background-color: #e0ffef;
+    border-left: 6px solid #191970;
+    box-shadow: 0 0 0 2px #eee;
+    padding: 1rem;
+    width: 300px;
+    margin: 5px;
 }
 footer{
     height: 50px;
