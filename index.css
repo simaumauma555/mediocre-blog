@@ -19,8 +19,7 @@ div.menu{
     line-height: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
-    border: 0.5px solid;
-    
+    border: 0.5px solid;    
 }
 div.menu:hover{
    background-color: lightblue; 
@@ -91,7 +90,7 @@ p.blog_titles{
     border-left: 6px solid #191970;
     box-shadow: 0 0 0 2px #eee;
     padding: 1rem;
-    width: 300px;
+    width: auto;
     margin: 5px;
 }
 footer{
