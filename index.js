@@ -12,6 +12,18 @@ let blogTitle8=document.getElementById("blog_title8");
 let englishLearningButton =document.getElementById("english_learning");
 englishLearningButton.onclick=function(){
     title.innerText="英語学習";
+    titleImage.src="pictures/uk_image2.JPG";
+    explanation.innerText="30歳手前で突然海外関連部門に配属され、そこから慌てて英語を勉強し始め、なんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。";
+    
+    blogTitle1.parentNode.style.display="block";
+    blogTitle2.parentNode.style.display="block";
+    blogTitle3.parentNode.style.display="block";
+    blogTitle4.parentNode.style.display="block";
+    blogTitle5.parentNode.style.display="block";
+    blogTitle6.parentNode.style.display="block";
+    blogTitle7.parentNode.style.display="block";
+    blogTitle8.parentNode.style.display="block";
+    
     blogTitle1.href="English_learning/If_hearing_English_is_effective.html";
     blogTitle2.href="English_learning/Why_English_listening_is_so_hard.html";
     blogTitle3.href="English_learning/How_to_improve_english_listening.html";
@@ -23,40 +35,20 @@ englishLearningButton.onclick=function(){
     blogTitle1.innerText="英語の聞き流しはリスニング力向上に効果的か？";
     blogTitle2.innerText="英語を聞き取れるようになる方法";
     blogTitle3.innerText="英語のリスニング力を劇的に向上には？";
-    blogTitle4.innerText="英語の書き取り（ディクテーション）が最強である理由";
-    blogTitle5.innerText="英単語をニュアンス（本質的意味）で覚えるべき理由";
-    blogTitle6.innerText="接続表現を極めて英語スピーキングを上達しよう";
-    blogTitle7.innerText="英語スピーキング力の上達方法（初～中級者）";
-    blogTitle8.innerText="英語での雑談を劇的に上達する方法";
-    titleImage.src="pictures/uk_image2.JPG";
-    explanation.innerText="30歳手前で突然海外関連部門に配属され、そこから慌てて英語を勉強し始め、なんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。";
 };
 
 let UKLifeButton =document.getElementById("UK_life");
 UKLifeButton.onclick=function(){
     title.innerText="イギリスの生活";
     titleImage.src="pictures/uk_image1.JPG";
-    let parent=document.getElementById("landing_page_main");
-    parent.removeChild(parent.children[9]);
-    parent.removeChild(parent.children[8]);
-    parent.removeChild(parent.children[7]);
-    parent.removeChild(parent.children[6]);
-    parent.removeChild(parent.children[5]);
-    blogTitle1.href="UK_life/UK_traffic_rule/traffic_speed.html";
-    blogTitle2.href="UK_life/UK_traffic_rule/traffic_differences.html";
-    blogTitle3.href="UK_life/UK_traffic_rule/traffic_differences.html2";
-    // blogTitle4.href="";
-    // blogTitle5.href="";
-    // blogTitle6.href="";
-    // blogTitle7.href="";
-    // blogTitle8.href="";
-    blogTitle1.innerText="イギリスの制限速度";
-    blogTitle2.innerText="安心してイギリスで運転するために必要な事前知識";
-    blogTitle3.innerText="安心してイギリスで運転するために必要な事前知識２";
-    // blogTitle4.innerHTML="";
-    // blogTitle5.innerHTML="";
-    // blogTitle6.innerHTML="";
-    // blogTitle7.innerHTML="";
-    // blogTitle8.innerHTML="";
     explanation.innerText="海外駐在の機会をいただきイギリスに生活しております（2020年時点）。今後イギリスに住まれる方や旅行でイギリスに来られる方に向けて、有用な情報を提供していきたいと考えています。" 
+    blogTitle1.innerHTML="<a href='UK_life/UK_traffic_rule/traffic_speed.html' id='blog_title1' class='blog_title_all'>イギリスの制限速度</a>"
+    blogTitle2.innerHTML="<a href='UK_life/UK_traffic_rule/traffic_differences.html' id='blog_title2' class='blog_title_all'>安心してイギリスで運転するために必要な事前知識</a>"
+    blogTitle3.innerHTML="<a href='UK_life/UK_traffic_rule/traffic_differences2.html' id='blog_title3' class='blog_title_all'>安心してイギリスで運転するために必要な事前知識２</a>"
+
+    blogTitle4.parentNode.style.display="none";
+    blogTitle5.parentNode.style.display="none";
+    blogTitle6.parentNode.style.display="none";
+    blogTitle7.parentNode.style.display="none";
+    blogTitle8.parentNode.style.display="none";
 };
