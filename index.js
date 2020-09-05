@@ -24,7 +24,7 @@ englishLearningButton.onclick=function(){
     blogTitle7.parentNode.style.display="block";
     blogTitle8.parentNode.style.display="block";
     
-    blogTitle1.href="If_hearing_English_is_effective.html";
+    blogTitle1.href="English_learning/If_hearing_English_is_effective.html";
     blogTitle2.href="English_learning/Why_English_listening_is_so_hard.html";
     blogTitle3.href="English_learning/How_to_improve_english_listening.html";
     blogTitle4.href="English_learning/Dictation.html";
