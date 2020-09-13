@@ -17,6 +17,9 @@ aside{
 p{
     line-height: 30px;
 }
+h1{
+    font-size: 25px;
+}
 h2 {
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #494949;/*文字色*/
@@ -38,6 +41,7 @@ a{
 }
 img{
     max-width: 500px;
+    margin-left: 3rem;
 }
 img.traffic_light{
     margin-left: 20px;
@@ -59,6 +63,15 @@ table{
 th,td{
     border:1px #494949 solid;
     width: 300px;
+}
+.box {
+    display:inline-block;
+    padding: 0 10px 0 10px ;
+    margin-left: 3rem;
+    border: 3px dashed #5b8bd0; /*太さ・線種・色*/
+    color: black; /* 文字色 */
+    background-color: #f0f7ff; /* 背景色 */
+    border-radius: 1px; /*角の丸み*/
 }
 footer{
     margin:0;

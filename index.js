@@ -13,7 +13,7 @@ let englishLearningButton =document.getElementById("english_learning");
 englishLearningButton.onclick=function(){
     title.innerText="英語学習";
     titleImage.src="pictures/uk_image2.JPG";
-    explanation.innerText="30歳手前で突然海外関連部門に配属され、そこから慌てて英語を勉強し始め、なんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。";
+    explanation.innerText="30歳手前で突然海外関連部門に配属されその時から慌てて英語を勉強し始めました。留学や海外居住経験無しでなんとかビジネスレベル（TOEIC: 980点）の英語を獲得しました。英語を勉強されている方にその経験を共有し、微力ながら参考になる情報を提供したいと思います。";
     
     blogTitle1.parentNode.style.display="block";
     blogTitle2.parentNode.style.display="block";
@@ -42,13 +42,14 @@ UKLifeButton.onclick=function(){
     title.innerText="イギリスの生活";
     titleImage.src="pictures/uk_image1.JPG";
     explanation.innerText="海外駐在の機会をいただきイギリスに生活しております（2020年時点）。今後イギリスに住まれる方や旅行でイギリスに来られる方に向けて、有用な情報を提供していきたいと考えています。" 
+    blogtitles.parentNode.style.display="none";
     blogTitle1.innerHTML="<a href='UK_life/UK_traffic_rule/traffic_speed.html' id='blog_title1' class='blog_title_all'>イギリスの制限速度</a>"
     blogTitle2.innerHTML="<a href='UK_life/UK_traffic_rule/traffic_differences.html' id='blog_title2' class='blog_title_all'>安心してイギリスで運転するために必要な事前知識</a>"
     blogTitle3.innerHTML="<a href='UK_life/UK_traffic_rule/traffic_differences2.html' id='blog_title3' class='blog_title_all'>安心してイギリスで運転するために必要な事前知識２</a>"
 
-    blogTitle4.parentNode.style.display="none";
-    blogTitle5.parentNode.style.display="none";
-    blogTitle6.parentNode.style.display="none";
-    blogTitle7.parentNode.style.display="none";
-    blogTitle8.parentNode.style.display="none";
+    // blogTitle4.parentNode.style.display="none";
+    // blogTitle5.parentNode.style.display="none";
+    // blogTitle6.parentNode.style.display="none";
+    // blogTitle7.parentNode.style.display="none";
+    // blogTitle8.parentNode.style.display="none";
 };

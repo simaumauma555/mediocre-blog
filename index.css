@@ -10,7 +10,7 @@ ul{
     background-color: #3f3f3f;
     height: 40px;
 }
-div.menu{
+.menu{
     color: white;
     height: 40px;
     width: 150px;
@@ -21,7 +21,7 @@ div.menu{
     font-size: 1.1rem;
     border: 0.5px solid;    
 }
-div.menu:hover{
+.menu:hover{
    background-color: lightblue; 
 }
 hr{
